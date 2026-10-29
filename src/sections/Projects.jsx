@@ -9,13 +9,20 @@ const Projects = () => {
       github: 'https://github.com/manshibhatt/promote',
       link: 'https://fronend-t.onrender.com/'
     },
+    // { 
+    //   title: 'Story Generator', 
+    //   desc: 'FastAPI-based interactive story generator using LLMs to dynamically generate stories. Users input a theme and navigate through branched nodes, making choices to try and reach a successful ending.', 
+    //   tech: ['FastAPI', 'Python', 'React', 'LLM'],
+    //   github: 'https://github.com/manshibhatt/story-generator',
+    //   link: 'https://story-generator-1-irqa.onrender.com'
+    // },
     { 
-      title: 'Story Generator', 
-      desc: 'FastAPI-based interactive story generator using LLMs to dynamically generate stories. Users input a theme and navigate through branched nodes, making choices to try and reach a successful ending.', 
-      tech: ['FastAPI', 'Python', 'React', 'LLM'],
-      github: 'https://github.com/manshibhatt/story-generator',
-      link: 'https://story-generator-1-irqa.onrender.com'
-    }
+  title: 'PeopleOS', 
+  desc: 'Full-stack employee management platform with role-based access control for Admins and Employees, featuring JWT authentication, attendance tracking, leave request approval workflows, and automated email notifications.', 
+  tech: ['Spring Boot', 'Java', 'React', 'MySQL'],
+  github: 'https://github.com/manshibhatt/employee-management',
+  link: 'https://employee-management-lilac-theta.vercel.app'
+}
   ];
 
   return (
