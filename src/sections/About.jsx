@@ -13,7 +13,7 @@ const About = () => {
           <div>
             <h3 style={{ marginBottom: '1rem', color: 'var(--accent)' }}>Languages</h3>
             <div style={{ display: 'flex', gap: '0.8rem', flexWrap: 'wrap' }}>
-              {['JavaScript', 'HTML', 'CSS', 'Java', 'Python'].map(tech => (
+              {['JavaScript', 'HTML', 'CSS', 'Java'].map(tech => (
                 <span key={tech} style={{ padding: '0.4rem 0.8rem', background: 'rgba(255,255,255,0.05)', borderRadius: '4px', fontSize: '0.9rem' }}>{tech}</span>
               ))}
             </div>
@@ -22,7 +22,7 @@ const About = () => {
           <div>
             <h3 style={{ marginBottom: '1rem', color: 'var(--accent)' }}>Tech Stack</h3>
             <div style={{ display: 'flex', gap: '0.8rem', flexWrap: 'wrap' }}>
-              {['React', 'Node.js', 'Express.js', 'MongoDB', 'REST API', 'FastAPI'].map(tech => (
+              {['React', 'Node.js', 'Express.js', 'MongoDB', 'REST API', 'SpringBoot'].map(tech => (
                 <span key={tech} style={{ padding: '0.4rem 0.8rem', background: 'rgba(255,255,255,0.05)', borderRadius: '4px', fontSize: '0.9rem' }}>{tech}</span>
               ))}
             </div>
@@ -31,7 +31,7 @@ const About = () => {
           <div>
             <h3 style={{ marginBottom: '1rem', color: 'var(--accent)' }}>Tools & Concepts</h3>
             <div style={{ display: 'flex', gap: '0.8rem', flexWrap: 'wrap' }}>
-              {['Git', 'Docker', 'DSA', 'OS', 'Zustand', 'Tailwind CSS'].map(tech => (
+              {['Git', 'DSA', 'Zustand', 'Tailwind CSS'].map(tech => (
                 <span key={tech} style={{ padding: '0.4rem 0.8rem', background: 'rgba(255,255,255,0.05)', borderRadius: '4px', fontSize: '0.9rem' }}>{tech}</span>
               ))}
             </div>
