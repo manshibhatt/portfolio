@@ -9,7 +9,7 @@ const Scene = () => {
       <ambientLight intensity={0.5} />
       <directionalLight position={[10, 10, 5]} intensity={1} />
       
-      <Float speed={2} rotationIntensity={1} floatIntensity={2}>
+      {/* <Float speed={2} rotationIntensity={1} floatIntensity={2}>
         <mesh position={[5, 0, -2]} rotation={[0.5, 0.5, 0]}>
           <torusKnotGeometry args={[1.5, 0.4, 128, 32]} />
           <meshStandardMaterial 
@@ -30,7 +30,7 @@ const Scene = () => {
             metalness={0.9} 
           />
         </mesh>
-      </Float>
+      </Float> */}
 
       <Sparkles 
         count={200} 
